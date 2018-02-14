@@ -1,0 +1,81 @@
+.container{
+    background: linear-gradient(to right, #89d8d8 , #31bfbf);
+    border: 4px solid silver;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.subdiv{
+    background: linear-gradient(to right, #31bfbf, #89d8d8)
+    color: #274e57;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid silver;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+
+
+}
+
+#logintext{
+   font-size:75px;
+   text-align:right;
+   font-weight: bold;
+   font-style: italic;
+   text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	 color: #333;
+	 opacity: 0.8;
+}
+
+#largetext{
+   text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+   color: #333;
+   opacity: 0.9;
+}
+
+.subdiv input{
+    margin: 5px;
+}
+
+.subdiv table{
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
+    .subdiv table tr{
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    table thead{
+        background-color: #89d8d8;
+    }
+
+    .subdiv table td{
+        padding: 18px;
+        border: 1px solid silver;
+    }
+.subdiv table td a{
+    background-color: azure;
+}
+.subdiv a{
+    background-color: #89d8d8;
+    padding: 5px;
+}
+
+div.span{
+  background-color: #89d8d8;
+}
+
+.form-container, .table-container, .main-wrapper{
+  margin: 50px 200px 50px 50px;
+}
+/* Fix alignment issue of label on extra small devices in Bootstrap 3.2 */
+.form-horizontal .control-label{
+    padding-top: 7px;
+}
+.user-table{
+  margin-left: 160px;
+}

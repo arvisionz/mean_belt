@@ -1,0 +1,21 @@
+<div class="subdiv" ng-controller = 'pollsController as PC'>
+    <a href="#!/home">Cancel</a>
+    <a href="/logout" ng-click=PC.logout()>Log Out</a>
+    <h1 id="largetext">Create a new question:</h1>
+    <form ng-submit='PC.create()'>
+        <!-- <p style="font-size:28px;"> Question: -->
+        <!-- <input type="text" ng-model='PC.newPoll.question'></p> -->
+        <textarea rows="5" cols="60" required minlength="10" ng-model='PC.newPoll.question'></textarea>
+        <p> Option A:
+        <input type="text" ng-model='PC.newPoll.options[0]'></p>
+        <p> Option B:
+        <input type="text" ng-model='PC.newPoll.options[1]'></p>
+        <p> Option C:
+        <input type="text" ng-model='PC.newPoll.options[2]'></p>
+        <p> Option D:
+        <input type="text" ng-model='PC.newPoll.options[3]'></p>
+        <input type="submit"></input>
+    </form>
+
+
+</div>
